@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Categories</title>
+    <link rel="icon" href="./car.png" type="image/x-icon">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: wh;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        ol {
+            margin-bottom: 20px;
+        }
+        
+        .main-list {
+            list-style-type: upper-roman;
+        }
+        
+        .sub-list {
+            list-style-type: upper-alpha;
+        }
+        
+        .car-list {
+            list-style-type: decimal;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+        
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="./Assignment2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Car Categories and Models</h1>
+        <ol class="main-list">
+            <li style="background-color: pink; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+                Compact Cars
+                <ol class="sub-list">
+                    <li>Two Door
+                        <ol class="car-list">
+                            <li>Honda Civic Coupe</li>
+                            <li>Mini Cooper</li>
+                            <li>Hyundai Veloster</li>
+                        </ol>
+                    </li>
+                    <li>Four Door
+                        <ol class="car-list">
+                            <li>Toyota Corolla</li>
+                            <li>Volkswagen Golf</li>
+                            <li>Mazda 3</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            
+            <li style="background-color: lightblue; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+                Midsize Cars
+                <ol class="sub-list">
+                    <li>Two Door
+                        <ol class="car-list">
+                            <li>Honda Accord Coupe</li>
+                            <li>Mercedes C-Class Coupe</li>
+                            <li>BMW 4 Series</li>
+                        </ol>
+                    </li>
+                    <li>Four Door
+                        <ol class="car-list">
+                            <li>Toyota Camry</li>
+                            <li>Honda Accord</li>
+                            <li>Nissan Altima</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            
+            <li style="background-color: lightcoral; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+                Sports Cars
+                <ol class="sub-list">
+                    <li>Coupe
+                        <ol class="car-list">
+                            <li>Porsche 911</li>
+                            <li>Chevrolet Corvette</li>
+                            <li>Nissan GT-R</li>
+                        </ol>
+                    </li>
+                    <li>Convertible
+                        <ol class="car-list">
+                            <li>Mazda MX-5 Miata</li>
+                            <li>Porsche Boxster</li>
+                            <li>BMW Z4</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <div class="footer">
+            <a href="http://127.0.0.1:3000/car-lists/Assignment2.html">Visit the live version</a>
+        </div>
+    </div>
+</body>
+</html>

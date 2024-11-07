@@ -1,0 +1,7 @@
+.car-list li {
+    padding: 5px 0;
+}
+
+.sub-list > li {
+    margin: 10px 0;
+}
