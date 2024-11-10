@@ -6,20 +6,44 @@
     <title>title</title>
 </head>
 <style>
+    article{
+        text-align: center;
+    }
     table {
         border-collapse: collapse;
-        margin: 20px 0;
+        margin: 20px auto; 
     }
-
-    th,
-    td {
+    th,td {
         border: 1px solid black;
         padding: 8px;
         text-align: left;
     }
+    .footer { 
+        position: absolute; 
+        bottom: 0; 
+        width: 100%;
+        padding: 10px;
+        background-color: whitesmoke;
+        text-align: center;
+        font-size: 14px;
+        border-top: 1px solid lightgray;
+        color: darkslategray;
+    }
+    .header {
+        padding: 7px;
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+        background: whitesmoke;
+        color: darkslategray;
+        font-size: 14px;
+      }
 </style>
 
 <body>
+    <div class="header">
+        <h1>Trees</h1>
+        <p>The difference between pine, maple, oak and Fir.</p>
+      </div>
     <article>
         <h4>Pine, maple, oak, and fir are all types of trees, each belonging to different botanical families and known
             for their unique characteristics. Pine trees are conifers, meaning they are evergreen trees with needle-like
@@ -68,7 +92,7 @@
             <td>Needles</td>
         </tr>
     </table>
-    <footer>
+    <footer class="footer">
         <p>This table shows the Average Width, Average Height, Leaf Type, and the Typical Life Span for each type.</p>
     </footer>
 </body>
