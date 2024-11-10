@@ -12,7 +12,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: wh;
+            background-color: white;
         }
         
         h1 {
@@ -47,20 +47,35 @@
             text-align: center;
             margin-top: 30px;
             padding: 20px;
-            border-top: 1px solid #ddd;
+            border-top: 1px solid gainsboro;
         }
         
-        a {
-            color: blue;
+        .footer-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .footer-link {
+            color: darkslategray;
             text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: whitesmoke;
+            transition: all 0.3s ease;
+            border: 1px solid gainsboro;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .footer-link:hover {
+            background-color: gainsboro;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
     </style>
     
-    <link rel="stylesheet" href="./Assignment2.css">
+    <link rel="stylesheet" href="./car-lists.css">
 </head>
 <body>
     <div class="container">
@@ -127,7 +142,12 @@
             </li>
         </ol>
         <div class="footer">
-            <a href="https://omar-el-baz.github.io/Automotive-Classes/">Visit the live version</a>
+            <div class="footer-links">
+                <a href="./tree-species-comparison.html" class="footer-link">Comprehensive Tree Species Analysis & Comparison</a>
+                <a href="./light-bulb-order-form.html" class="footer-link">Lighting Solutions - Order Form & Specifications</a>
+                <a href="./tree-info-with-video.html" class="footer-link">Interactive Tree Guide & Video Resources</a>
+                <a href="./tree-details-table.html" class="footer-link">Detailed Tree Characteristics Database</a>
+            </div>
         </div>
     </div>
 </body>
